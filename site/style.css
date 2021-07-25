@@ -1,0 +1,38 @@
+header li{
+
+    list-style: none;
+
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: #000;
+    background-color:aqua;
+    border: 1px solid black;
+    display: block;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 1px;
+    font-style:italic;
+}
+a:hover{
+    color: rgb(71, 55, 9);
+    background-color: rgb(221, 245, 186);
+
+}
+a:active{
+    background-color: rgb(56, 37, 3);
+}
+div{
+    list-style: none;
+    background-color: gray;
+    margin-bottom: 2px;
+}
+div:nth-child(odd){
+    background-color: beige;
+}
+.div:hover{
+    cursor:p;
+    font-size: 30px;
+    
+}
